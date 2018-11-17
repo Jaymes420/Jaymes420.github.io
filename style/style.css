@@ -3,7 +3,7 @@
 :root {
   --primary: #1C2826;;
   --dark: #978061;
-  --light:#fff;
+  --light:#1C2826;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8 );
 }
 
@@ -23,10 +23,12 @@ body {
 
 .btn {
   background-color: var(--dark);
-  color: var(--light);
+  color: #1C2826;
   padding: 0.6rem 1.3rem;
   text-decoration: none;
   border:0;
+  font-weight: bold;
+
 
 }
 
@@ -60,6 +62,10 @@ img {
   text-transform: uppercase;
   font-size: 1.1rem;
   box-shadow: var(--shadow);
+  border: 3px;
+  border-style: solid;
+  border-color: #978061;
+
 
 }
 
@@ -96,6 +102,9 @@ img {
   align-items: start;
   justify-content: center;
   box-shadow: var(--shadow);
+  border: 3px;
+  border-style: solid;
+  border-color: #978061;
 
 }
 
@@ -132,11 +141,17 @@ img {
 }
 .top-box-a {
   grid-area: top-box-a;
+  border: 3px;
+  border-style: solid;
+  border-color: #978061;
 
 
 }
 .top-box-b {
   grid-area: top-box-b;
+  border: 3px;
+  border-style: solid;
+  border-color: #978061;
 
 
 }
@@ -150,6 +165,9 @@ img {
   grid-template-columns:
   repeat(auto-fit, minmax(200px, 1fr));
   border-radius: 35;
+  border: 3px;
+  border-style: solid;
+  border-color: #978061;
 
 
 }
@@ -159,6 +177,7 @@ img {
   text-align: center;
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow);
+
 }
 
 /* Infor Section */
@@ -170,6 +189,9 @@ img {
   grid-gap: 30px;
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem;
+  border: 3px;
+  border-style: solid;
+  border-color: #978061;
 }
 
 /* Portfolio */
@@ -180,11 +202,16 @@ img {
   grid-template-columns:
   repeat(auto-fit, minmax(200px, 1fr));
 
+
 }
 
 .portfolio img {
   width: 100%;
   box-shadow: var(--shadow);
+  border: 3px;
+  border-style: solid;
+  border-color: #978061;
+
 }
 
 /* Footer */
