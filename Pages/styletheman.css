@@ -20,6 +20,12 @@ body {
 
 }
 
+a {
+  color: #978061;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 .btn {
   background-color: var(--dark);

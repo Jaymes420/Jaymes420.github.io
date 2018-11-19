@@ -32,6 +32,20 @@ body {
 
 }
 
+.btn2 {
+  
+  color: black;
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border:0;
+  font-weight: bold;
+}
+
+
+
+    a {
+    color: hotpink;
+}
 img {
   max-width: 100%;
 
